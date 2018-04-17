@@ -1,0 +1,100 @@
+#gradtop {
+	margin:0px;
+	border:0px; 
+	padding:0px;
+}
+
+#gradbtm {
+	margin:0px;
+	border:0px; 
+	padding:0px;
+	background: linear-gradient(#24758A, #42787F);
+	color: #88B3BA;
+	text-indent:55px;
+	height: 40%;
+}
+
+.topBeach {
+	margin:0px;
+	border:0px; 
+	padding:0px;
+	align-items: left;
+	background: linear-gradient(#3299B8, #88B3BA);
+	color: #42787F;
+	height: 50%;
+	display: flex;
+	align-items: flex-end;
+}
+
+h1 {
+	margin: 0px;
+	font-size:70px;
+}
+
+.slideinYO {
+	animation-name: slidein;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+}
+
+@keyframes slidein {
+	0% {
+		transform: translateX(-900px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+.slideupYO {
+	animation-name: slideup;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+}
+
+/*
+@keyframes slideup {
+	0% {
+		transform: translateY(1000px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+*/
+
+body, html {
+	height: 100%;
+	margin: 0px;
+}
+
+#footColor{
+	background: linear-gradient(#B19377, #815F44);
+	height:10%;
+}
+
+.headfont {
+	font-family: 'Comfortaa', cursive;
+	height: 100%;
+}
+
+
+#bubbleTop{
+  background: linear-gradient(#88B3BA, #3299B8);
+  float: right;
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 50%;
+  margin: 4px 2px;
+  color: #42787F;
+}
+
+#bubbleBtm{
+  background: linear-gradient(#88B3BA, #3299B8);
+  float: right;
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 50%;
+  margin: 4px 2px;
+  color: #42787F;
+}
