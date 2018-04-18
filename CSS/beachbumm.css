@@ -1,3 +1,12 @@
+/* .container{
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+.item-b{
+	grid-area: sidebubbles;
+} */
+
 #gradtop {
 	margin:0px;
 	border:0px; 
@@ -52,17 +61,6 @@ h1 {
 	animation-timing-function: ease-out;
 }
 
-/*
-@keyframes slideup {
-	0% {
-		transform: translateY(1000px);
-	}
-	100% {
-		transform: translateY(0);
-	}
-}
-*/
-
 body, html {
 	height: 100%;
 	margin: 0px;
@@ -78,6 +76,10 @@ body, html {
 	height: 100%;
 }
 
+.subheader{
+	padding-left: 45px;
+	margin-top: 0px;
+}
 
 #bubbleTop{
   background: linear-gradient(#88B3BA, #3299B8);
